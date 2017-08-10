@@ -1,0 +1,491 @@
+Reading in/interpreting file - time took = 0.100000 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.000000 s
+Built output hierarchies - time= 6.928016 s
+Iteration 0, obj = 232238.083782	 - time= 0.937002
+Reading in/interpreting file - time took = 0.203012 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Reading in/interpreting file - time took = 0.107006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.045402 s
+Iteration 0, obj = 232238.083782	 - time= 0.992056
+Reading in/interpreting file - time took = 0.206012 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.090406 s
+Iteration 0, obj = 232238.083782	 - time= 0.981056
+Reading in/interpreting file - time took = 0.110007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.002000 s
+Built output hierarchies - time= 7.105406 s
+Iteration 0, obj = 232238.083782	 - time= 0.957054
+Reading in/interpreting file - time took = 0.109006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.044403 s
+Iteration 0, obj = 232238.083782	 - time= 0.937053
+Reading in/interpreting file - time took = 0.117007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.248415 s
+Iteration 0, obj = 232238.083782	 - time= 0.977056
+Reading in/interpreting file - time took = 0.118007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.002000 s
+Built output hierarchies - time= 7.167410 s
+Iteration 0, obj = 232238.083782	 - time= 0.938054
+Reading in/interpreting file - time took = 0.107006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 6.971399 s
+Iteration 0, obj = 232238.083782	 - time= 0.929053
+Reading in/interpreting file - time took = 0.111006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.002000 s
+Built output hierarchies - time= 7.391423 s
+Reading in/interpreting file - time took = 0.111007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.002000 s
+Built output hierarchies - time= 7.793446 s
+Iteration 0, obj = 232238.083782	 - time= 1.007057
+Reading in/interpreting file - time took = 0.112006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.002001 s
+Built output hierarchies - time= 7.376422 s
+Iteration 0, obj = 232238.083782	 - time= 0.954054
+Reading in/interpreting file - time took = 0.113006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.719441 s
+Iteration 0, obj = 232238.083782	 - time= 0.952055
+Reading in/interpreting file - time took = 0.110006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.648437 s
+Iteration 0, obj = 232238.083782	 - time= 0.977056
+Reading in/interpreting file - time took = 0.110006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.613435 s
+Iteration 0, obj = 232238.083782	 - time= 0.943054
+Reading in/interpreting file - time took = 0.111006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.720441 s
+Iteration 0, obj = 232238.083782	 - time= 0.940054
+Reading in/interpreting file - time took = 0.110007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.468427 s
+Iteration 0, obj = 232238.083782	 - time= 0.939054
+Reading in/interpreting file - time took = 0.114006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.002000 s
+Built output hierarchies - time= 7.840449 s
+Iteration 0, obj = 232238.083782	 - time= 0.978056
+Reading in/interpreting file - time took = 0.114007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.825448 s
+Iteration 0, obj = 232238.083782	 - time= 0.993057
+Reading in/interpreting file - time took = 0.113006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001001 s
+Built output hierarchies - time= 7.703440 s
+Iteration 0, obj = 232238.083782	 - time= 0.948054
+Reading in/interpreting file - time took = 0.112006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.613435 s
+Iteration 0, obj = 232238.083782	 - time= 0.944054
+Reading in/interpreting file - time took = 0.111007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.499429 s
+Iteration 0, obj = 232238.083782	 - time= 0.930053
+Reading in/interpreting file - time took = 0.115006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.577433 s
+Iteration 0, obj = 232238.083782	 - time= 0.933054
+Reading in/interpreting file - time took = 0.114007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.931454 s
+Iteration 0, obj = 232238.083782	 - time= 0.985056
+Reading in/interpreting file - time took = 0.112006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.591434 s
+Iteration 0, obj = 232238.083782	 - time= 0.945054
+Reading in/interpreting file - time took = 0.112006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.616436 s
+Iteration 0, obj = 232238.083782	 - time= 0.954055
+Reading in/interpreting file - time took = 0.111006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.570433 s
+Iteration 0, obj = 232238.083782	 - time= 0.935053
+Reading in/interpreting file - time took = 0.112007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.529431 s
+Iteration 0, obj = 232238.083782	 - time= 0.950054
+Reading in/interpreting file - time took = 0.114007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.880451 s
+Iteration 0, obj = 232238.083782	 - time= 0.986056
+Reading in/interpreting file - time took = 0.115006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.889451 s
+Iteration 0, obj = 232238.083782	 - time= 0.933053
+Reading in/interpreting file - time took = 0.109006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.532430 s
+Iteration 0, obj = 232238.083782	 - time= 0.938054
+Reading in/interpreting file - time took = 0.111007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Reading in/interpreting file - time took = 0.110006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.188411 s
+Iteration 0, obj = 232238.083782	 - time= 0.976056
+Reading in/interpreting file - time took = 0.110007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.244414 s
+Iteration 0, obj = 232238.083782	 - time= 0.941054
+Reading in/interpreting file - time took = 0.110006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Reading in/interpreting file - time took = 0.107006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Reading in/interpreting file - time took = 0.108006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Reading in/interpreting file - time took = 0.111007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Reading in/interpreting file - time took = 0.111007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Reading in/interpreting file - time took = 0.107006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.002000 s
+Reading in/interpreting file - time took = 0.107006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.002000 s
+Reading in/interpreting file - time took = 0.127007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Reading in/interpreting file - time took = 0.108006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Reading in/interpreting file - time took = 0.109006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 63.759647 s
+Reading in/interpreting file - time took = 0.107007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.002000 s
+Built output hierarchies - time= 7.192411 s
+Reading in/interpreting file - time took = 0.109006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.002000 s
+Built output hierarchies - time= 7.492428 s
+Reading in/interpreting file - time took = 0.109006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.127407 s
+Reading in/interpreting file - time took = 0.114006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.452426 s
+Reading in/interpreting file - time took = 0.110006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.202412 s
+Iteration 0, obj = 232238.083782	 - time= 0.937053
+Reading in/interpreting file - time took = 0.109007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.281416 s
+Iteration 0, obj = 232238.083782	 - time= 0.936054
+Reading in/interpreting file - time took = 0.110007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.002000 s
+Built output hierarchies - time= 7.238414 s
+Iteration 0, obj = 232238.083782	 - time= 0.931053
+Reading in/interpreting file - time took = 0.124007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.358421 s
+Iteration 0, obj = 232238.083782	 - time= 0.980056
+Reading in/interpreting file - time took = 0.117006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Reading in/interpreting file - time took = 0.108006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.288417 s
+Iteration 0, obj = 232238.083782	 - time= 0.966056
+Reading in/interpreting file - time took = 0.111006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.480428 s
+Iteration 0, obj = 232238.083782	 - time= 0.947054
+Reading in/interpreting file - time took = 0.118007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.185411 s
+Iteration 0, obj = 232238.083782	 - time= 0.985057
+Reading in/interpreting file - time took = 0.110006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.295418 s
+Iteration 0, obj = 232238.083782	 - time= 0.935053
+Reading in/interpreting file - time took = 0.108006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.248414 s
+Iteration 0, obj = 232238.083782	 - time= 0.934054
+Reading in/interpreting file - time took = 0.111006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001001 s
+Built output hierarchies - time= 7.185411 s
+Iteration 0, obj = 232238.083782	 - time= 0.929053
+Reading in/interpreting file - time took = 0.118007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.002000 s
+Built output hierarchies - time= 7.404424 s
+Iteration 0, obj = 232238.083782	 - time= 0.934053
+Reading in/interpreting file - time took = 0.205012 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.151409 s
+Iteration 0, obj = 232238.083782	 - time= 0.935054
+Reading in/interpreting file - time took = 0.110007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.184411 s
+Iteration 0, obj = 232238.083782	 - time= 0.935054
+Reading in/interpreting file - time took = 0.111007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.001000 s
+Built output hierarchies - time= 7.322419 s
+Iteration 0, obj = 232238.083782	 - time= 0.957055
+Reading in/interpreting file - time took = 0.207012 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.002000 s
+Built output hierarchies - time= 7.188411 s
+Iteration 0, obj = 232238.083782	 - time= 0.935053
+Reading in/interpreting file - time took = 0.125007 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 0.000000 ,  upper = 0.000000 - time= 0.002001 s
+Built output hierarchies - time= 7.006400 s
+Iteration 0, obj = 232238.083782	 - time= 0.935054
+Iter 1, obj = 222513.366122, change = +154.282340		- pools [8]->[27]			for output 21	 - time= 192.525012 s

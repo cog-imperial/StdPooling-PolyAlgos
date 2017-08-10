@@ -1,0 +1,230 @@
+GAMS 24.5.3  r54322 Released Oct  1, 2015 WEX-WEI x86 64bit/MS Windows 10/30/16 21:27:41 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+          File name: pqmodel.gms.
+          Author: Mohammed Alfaki, December, 2010.
+          GAMS model for the PQ-formulation.
+   6   
+   7  *=========================================================================
+      ======
+   8  # Declare options
+****  $409
+   9  *=========================================================================
+      ======
+  10  *options optcr=0.01, limrow=0, limcol=0, reslim=3600;
+  11  options optcr=1.e-9, optca=1.e-6, limrow=0, limcol=0, reslim=3600;
+****        $2
+  12  #=========================================================================
+****  $409
+      ======
+  13  # Declare sets
+  14  #=========================================================================
+****  $2
+      ======
+  15       set l(i);
+****             $120
+  16  l(i) = i(i)-s(i)-t(i);
+****              $140$133,140,133
+  17   
+  18  #=========================================================================
+****  $409
+      ======
+  19  # Declare variables/bounds
+****                     $2
+  20  #=========================================================================
+****  $409
+      ======
+  21  variables cost, profit;
+  22  positive variables y(s,i), f(i,t), x(s,i,t);
+  23   
+  24  y.up(s,i) = a(s,i);
+****              $140
+  25  f.up(i,t) = min(bu(i),bu(t))*a(i,t);
+****                   $140
+  26  x.up(s,i,t) = min(bu(s),bu(i),bu(t))*a(s,i)*a(i,t);
+  27   
+  28  #=========================================================================
+****  $409
+      ======
+  29  # Declare constraints
+  30  #=========================================================================
+      ======
+  31  equations obj, sflowcaplb(s), sflowcapub(s), pflowcap(i), tflowcaplb(t),
+  32            tflowcapub(t), qualub(t,k), propblnc(i), rlt1(i,t), rlt2(s,j),
+****                                    $120                               $120
+  33            pathdef(s,i,t);
+  34   
+  35  #=========================================================================
+****  $409
+      ======
+  36  # Define constraints
+  37  #=========================================================================
+      ======
+  38  #-----------------------------Objective function--------------------------
+****                                                   $2
+      ------
+  39  obj.. cost =e= sum((s,l,t)$(a(s,l)*a(l,t)>0),(c(s,l) + c(l,t))*x(s,l,t)) +
+****    $195,96             $195,195,96,195,96,195,96,300
+  40                                       sum((s,t)$(a(s,t)>0), c(s,t)*f(s,t));
+****                                         $409
+  41  #-------------------------Raw material availabilities---------------------
+****  $409
+      ------
+  42  sflowcaplb(s)$(bl(s)>0).. sum((l,t)$(a(s,l)*a(l,t)>0), x(s,l,t)) +
+  43                                sum(t$(a(s,t)>0), f(s,t)) =g= bl(s);
+  44  sflowcapub(s)$(bu(s)<+inf).. sum((l,t)$(a(s,l)*a(l,t)>0), x(s,l,t)) +
+****                                                                 $171
+  45                                   sum(t$(a(s,t)>0), f(s,t)) =l= bu(s);
+****                                                        $171
+  46  #-------------------------------Pool capacities---------------------------
+****  $409
+      ------
+  47  pflowcap(l)$(bu(l)<+inf).. sum((s,t)$(a(s,l)*a(l,t)>0), x(s,l,t)) =l= bu(l
+      );
+  48  #-------------------------Product demand restrictions---------------------
+****  $409
+      ------
+  49  tflowcaplb(t)$(bl(t)>0).. sum((s,l)$(a(s,l)*a(l,t)>0), x(s,l,t)) +
+  50                                sum(s$(a(s,t)>0), f(s,t)) =g= bl(t);
+  51  tflowcapub(t)$(bu(t)<+inf).. sum((s,l)$(a(s,l)*a(l,t)>0), x(s,l,t)) +
+****                                                                 $171
+  52                                   sum(s$(a(s,t)>0), f(s,t)) =l= bu(t);
+****                                                        $171
+  53  #------------------------Product quality specifications-------------------
+****  $409
+      ------
+  54  qualub(t,k)$(abs(q(t,k))>0 and abs(q(t,k))<+inf)..
+  55                    sum((l,s)$(a(s,l)*a(l,t)>0), (q(s,k) - q(t,k))*x(s,l,t))
+       +
+  56                             sum(s$(a(s,t)>0), (q(s,k) - q(t,k))*f(s,t)) =l=
+       0;
+  57  #------------------------------Proportion balances------------------------
+****  $409
+      ------
+  58  propblnc(l).. sum(s$(a(s,l)>0), y(s,l)) =e= 1;
+  59  #--------------------------RLT for proportion balances--------------------
+****  $409                                        $7,140   $36
+      ------
+  60  rlt1(l,t)$(a(l,t)>0).. sum(s$(a(s,l)>0), x(s,l,t)) =e= f(l,t);
+****                                     $149  $143 $149,171,149,2,441,148,8,300
+  61  #----------------------------RLT for pool capacities----------------------
+****  $409                                    $7,140     $36
+      ------
+  62  rlt2(s,l)$(a(s,l)>0 and bu(l)<+inf)..
+  63                                    sum(t$(a(l,t)>0), x(s,l,t)) =l= bu(l)*y(
+****                                              $149    $143,149,149,171,2,441
+      s,l);
+      ,148,143,300
+  64  #-----------------------------path flow definition------------------------
+****  $409
+      ------
+  65  pathdef(s,l,t)$(a(s,l)*a(l,t)>0).. x(s,l,t) =e= y(s,l)*f(l,t);
+  66   
+  67  #=========================================================================
+****  $409
+      ======
+  68  # Solve the model
+****            $140,241,812
+  69  #=========================================================================
+****  $2
+      ======
+  70  option nlp = baron;
+  71  model pqmodel /all/;
+  78  *rlt1.equclass('*','*') 1
+  79  *rlt2.equclass('*','*') 1
+  80  pqmodel.optfile = 1;
+  81  pqmodel.solprint = 1;
+  82  pqmodel.workspace = 1500;
+  83  solve pqmodel minimizing cost using nlp;
+****                                         $257
+  84  #============================Print solution information===================
+****  $409
+      ======
+  85  scalar nlts;
+  86  nlts = 0;
+  87  loop((s,l,j)$(a(s,l)*a(l,j)>0),
+  88    nlts = nlts + 1;
+  89  );
+  90  scalars ae, re;
+  91  ae = abs(pqmodel.objest - pqmodel.objval);
+  92  re = ae/abs(pqmodel.objest);
+  93  profit.lo = -pqmodel.objest;
+  94  profit.up = -pqmodel.objval;
+  95  file line;
+  96  put_utility line 'msg' / '#####' ' Solution Summary #####';
+  97  line.nd = 6;
+  98  line.nw = 18;
+  99  put_utility line 'msg' / pqmodel.objval pqmodel.objest pqmodel.resusd re a
+      e;
+ 100  line.nd = 0;
+ 101  put_utility line 'msg' / pqmodel.solvestat pqmodel.nodusd (pqmodel.numvar-
+      1)
+ 102  nlts (pqmodel.numequ-nlts-1) nlts;
+ 103  option f:6:0:2;display f.l;
+ 104  option y:6:0:2;display y.l;
+ 105  #========================================END==============================
+****  $409
+      ======
+
+**** LIST OF STRAY NAMES - CHECK DECLARATIONS FOR SPURIOUS COMMAS
+**** STRAY NAME c OF TYPE FUNCT
+GAMS 24.5.3  r54322 Released Oct  1, 2015 WEX-WEI x86 64bit/MS Windows 10/30/16 21:27:41 Page 2
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Error Messages
+
+
+  2  Identifier expected
+  7  '(' expected
+  8  ')' expected
+ 10  ',' expected
+ 36  '=' or '..' or ':=' or '$=' operator expected
+     rest of statement ignored
+ 93  A set has to be indexed when used on the left side
+ 96  Blank needed between identifier and text
+       (-or- illegal character in identifier)
+       (-or- check for missing ';' on previous line)
+120  Unknown identifier entered as set
+133  Incompatible operands for addition
+140  Unknown symbol
+143  A suffix is missing
+148  Dimension different - The symbol is referenced with more/less
+        indices as declared
+149  Uncontrolled set entered as constant
+171  Domain violation for set
+187  Assigned set used as domain
+188  Assigning to this set is NOT allowed. The set may have been
+        used in a domain definition or is a predefined/readonly set.
+195  Symbol redefined with a different type
+241  Model has not been defined
+257  Solve statement not checked because of previous errors
+300  Remaining errors not printed for this line
+409  Unrecognizable item - skip to find a new statement
+       looking for a ';' or a key word to get started again
+440  Expression has to be real valued
+441  Expected TO or DOWNTO. The general syntax of a FOR statement is
+       FOR ( i = start TO/DOWNTO end [BY increment] , statements )
+442  Expected a ',' or BY. The general syntax of a FOR statement is
+       FOR ( i = start TO/DOWNTO end [BY increment] , statements )
+812  Solve keys expected - USING MAX/MIN SCENARIO
+
+**** 94 ERROR(S)   0 WARNING(S)
+
+
+COMPILATION TIME     =        0.125 SECONDS      2 MB  24.5.3 r54322 WEX-WEI
+
+
+USER: Ruth Misener                                   G160314/0001AB-GEN
+      ANTIGONE Development License                               DC0000
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Input      I:\OneDrive for Business 1\PhD Radu\Ruth-MILP\Python\Pooling Python C
+           ode\data\pqmodel.gms
+Output     I:\OneDrive for Business 1\PhD Radu\Ruth-MILP\Python\Pooling Python C
+           ode\data\pqmodel.lst
+
+**** USER ERROR(S) ENCOUNTERED

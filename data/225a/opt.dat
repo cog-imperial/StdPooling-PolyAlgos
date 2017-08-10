@@ -1,0 +1,4 @@
+epsa         1e-006
+epsr         1e-009
+maxiter         -1
+maxtime         3600

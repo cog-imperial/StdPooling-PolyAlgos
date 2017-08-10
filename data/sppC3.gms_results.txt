@@ -1,0 +1,160 @@
+Reading in/interpreting file - time took = 0.130000 s
+
+
+
+*SOLVING problem with quality # 1
+BARON solve results: lower = 234469.185069 ,  upper = 234469.185069 - time= 143.504322 s
+Built output hierarchies - time= 7.226015 s
+Iteration 0, obj = 233566.895813	 - time= 0.723002
+Iter 1, obj = 233789.565754, change = +222.669941	- pools 3->10			for output 39	 - time= 22.184048 s
+Iter 2, obj = 233976.011334, change = +186.445580	- pools 3->8			for output 17	 - time= 3.974007 s
+Iter 3, obj = 234146.374792, change = +170.363458	- pools 3->[8, 25]		for output 7	 - time= 8.311017 s
+Iter 4, obj = 234280.374792, change = +134.000000	- pools 3->5			for output 9	 - time= 15.039026 s
+Iter 5, obj = 234397.804321, change = +117.429529	- pools 4->[2, 19]		for output 28	 - time= 5.521010 s
+Iter 6, obj = 234429.672299, change = +31.867978	- pools 3->[19, 21]		for output 29	 - time= 22.888059 s
+Iter 7, obj = 234453.672299, change = +24.000000	- pools 3->8			for output 36	 - time= 33.202065 s
+Iter 8, obj = 234463.440471, change = +9.768172		- pools 3->12			for output 32	 - time= 19.719037 s
+Iter 9, obj = 234469.185069, change = +5.744598		- pools 12->[17, 20]		for output 18	 - time= 5.274009 s
+
+Finished iterations for quality # 1 - time= 183.941396 s
+*RESULTS for quality # 1 : ALGO = 234469.185069 BARON lower = 234469.185069 , BARON upper = 234469.185069
+*TIMES   for quality # 1 : ALGO = 183.941396 s, BARON = 143.504322 s
+
+
+
+Reading in/interpreting file - time took = 0.111002 s
+ 
+
+
+*SOLVING problem with quality # 2
+BARON solve results: lower = 235235.000000 ,  upper = 235235.000000 - time= 9.866035 s
+Built output hierarchies - time= 7.531016 s
+Iteration 0, obj = 235235.000000	 - time= 0.050000
+Reading in/interpreting file - time took = 0.100000 s
+
+
+
+*SOLVING problem with quality # 2
+BARON solve results: lower = 235235.000000 ,  upper = 235235.000000 - time= 9.864033 s
+Built output hierarchies - time= 6.904018 s
+Iteration 0, obj = 235235.000000	 - time= 0.040000
+
+Finished iterations for quality # 2 - time= 19.893055 s
+*RESULTS for quality # 2 : ALGO = 235235.000000 BARON lower = 235235.000000 , BARON upper = 235235.000000
+*TIMES   for quality # 2 : ALGO = 19.893055 s, BARON = 9.864033 s
+
+
+
+*SOLVING problem with quality # 3
+BARON solve results: lower = 234139.553279 ,  upper = 234139.553279 - time= 6.989012 s
+Built output hierarchies - time= 4.757009 s
+Iteration 0, obj = 233594.609469	 - time= 0.691001
+Iter 1, obj = 233783.609408, change = +188.999939		- pools [3, 8]->26			for output 6	 - time= 84.745157 s
+
+Finished iterations for quality # 3 - time= 106.083210 s
+*RESULTS for quality # 3 : ALGO = 233783.609408 BARON lower = 234139.553279 , BARON upper = 234139.553279
+*TIMES   for quality # 3 : ALGO = 106.083210 s, BARON = 6.989012 s
+
+
+
+*SOLVING problem with quality # 4
+BARON solve results: lower = 235235.000000 ,  upper = 235235.000000 - time= 4.309014 s
+Reading in/interpreting file - time took = 0.110000 s
+
+
+
+*SOLVING problem with quality # 5
+BARON solve results: lower = 234891.797484 ,  upper = 234891.797484 - time= 4.459008 s
+Built output hierarchies - time= 7.330023 s
+Iteration 0, obj = 234891.797483	 - time= 0.050000
+
+Finished iterations for quality # 5 - time= 13.469041 s
+*RESULTS for quality # 5 : ALGO = 234891.797483 BARON lower = 234891.797484 , BARON upper = 234891.797484
+*TIMES   for quality # 5 : ALGO = 13.469041 s, BARON = 4.459008 s
+
+
+
+*SOLVING problem with quality # 6
+BARON solve results: lower = 235235.000000 ,  upper = 235235.000000 - time= 3.728008 s
+Built output hierarchies - time= 4.263009 s
+Iteration 0, obj = 235235.000000	 - time= 0.050000
+
+Finished iterations for quality # 6 - time= 5.261014 s
+*RESULTS for quality # 6 : ALGO = 235235.000000 BARON lower = 235235.000000 , BARON upper = 235235.000000
+*TIMES   for quality # 6 : ALGO = 5.261014 s, BARON = 3.728008 s
+
+
+
+*SOLVING problem with quality # 7
+BARON solve results: lower = 235049.256731 ,  upper = 235049.256731 - time= 6.430012 s
+Reading in/interpreting file - time took = 0.110001 s
+
+
+
+*SOLVING problem with quality # 8
+BARON solve results: lower = 235235.000000 ,  upper = 235235.000000 - time= 4.067006 s
+Built output hierarchies - time= 5.165016 s
+Iteration 0, obj = 235235.000000	 - time= 0.230000
+
+Finished iterations for quality # 8 - time= 16.952035 s
+*RESULTS for quality # 8 : ALGO = 235235.000000 BARON lower = 235235.000000 , BARON upper = 235235.000000
+*TIMES   for quality # 8 : ALGO = 16.952035 s, BARON = 4.067006 s
+
+
+
+*SOLVING problem with quality # 9
+BARON solve results: lower = 232725.807530 ,  upper = 232725.807530 - time= 410.666531 s
+Built output hierarchies - time= 4.828214 s
+Iteration 0, obj = 232238.083782	 - time= 0.927039
+Iter 1, obj = 232392.366122, change = +154.282340		- pools 8->[23, 27]			for output 21	 - time= 58.329742 s
+Iter 2, obj = 232495.399427, change = +103.033305		- pools 13->28			for output 19	 - time= 15.014031 s
+Iter 3, obj = 232570.791545, change = +75.392118		- pools 18->15			for output 1	 - time= 1.941003 s
+Iter 4, obj = 232587.528167, change = +16.736623		- pools 26->[20, 22]			for output 6	 - time= 21.767041 s
+Iter 5, obj = 232601.506533, change = +13.978366		- pools 18->[3, 10]			for output 32	 - time= 13.851034 s
+Iter 6, obj = 232610.518820, change = +9.012287		- pools 18->[11, 14]			for output 31	 - time= 28.265059 s
+Iter 7, obj = 232612.400971, change = +1.882151		- pools 13->[3, 8]			for output 17	 - time= 40.124092 s
+
+Finished iterations for quality # 9 - time= 248.681408 s
+*RESULTS for quality # 9 : ALGO = 232612.400971 BARON lower = 232725.807530 , BARON upper = 232725.807530
+*TIMES   for quality # 9 : ALGO = 248.681408 s, BARON = 410.666531 s
+
+
+
+*SOLVING problem with quality # 10
+BARON solve results: lower = 234694.294339 ,  upper = 234694.294339 - time= 11.493020 s
+Built output hierarchies - time= 5.428012 s
+Iteration 0, obj = 233378.548852	 - time= 1.400002
+Iter 1, obj = 233719.644616, change = +341.095765		- pools 3->[17, 19]			for output 22	 - time= 43.259094 s
+Iter 2, obj = 233886.644616, change = +167.000000		- pools 1->4			for output 3	 - time= 29.151057 s
+Iter 3, obj = 234016.644616, change = +130.000000		- pools 1->8			for output 4	 - time= 5.656010 s
+Iter 4, obj = 234139.023299, change = +122.378683		- pools 3->4			for output 7	 - time= 30.033071 s
+Iter 5, obj = 234257.050740, change = +118.027441		- pools 3->4			for output 19	 - time= 8.110018 s
+Iter 6, obj = 234368.007412, change = +110.956672		- pools 3->8			for output 17	 - time= 8.474019 s
+Iter 7, obj = 234441.007412, change = +73.000000		- pools 12->[5, 19]			for output 27	 - time= 33.079070 s
+Iter 8, obj = 234510.028210, change = +69.020798		- pools 3->[5, 20]			for output 5	 - time= 41.316090 s
+Iter 9, obj = 234576.631311, change = +66.603101		- pools 4->[5, 27]			for output 20	 - time= 83.647196 s
+Iter 10, obj = 234633.741363, change = +57.110052		- pools 3->18			for output 14	 - time= 98.375222 s
+Iter 11, obj = 234679.994973, change = +46.253610		- pools 3->10			for output 9	 - time= 12.554028 s
+Iter 12, obj = 234689.234321, change = +9.239348		- pools 3->8			for output 12	 - time= 12.104029 s
+Iter 13, obj = 234693.746678, change = +4.512357		- pools 3->5			for output 13	 - time= 103.647240 s
+Iter 14, obj = 234694.294338, change = +0.547660		- pools 3->15			for output 26	 - time= 104.593233 s
+
+Finished iterations for quality # 10 - time= 632.873414 s
+*RESULTS for quality # 10 : ALGO = 234694.294338 BARON lower = 234694.294339 , BARON upper = 234694.294339
+*TIMES   for quality # 10 : ALGO = 632.873414 s, BARON = 11.493020 s
+
+
+
+*SOLVING problem with quality # 11
+BARON solve results: lower = 235235.000000 ,  upper = 235235.000000 - time= 3.548020 s
+Built output hierarchies - time= 3.694006 s
+Iteration 0, obj = 235235.000000	 - time= 0.040000
+
+Finished iterations for quality # 11 - time= 11.634021 s
+*RESULTS for quality # 11 : ALGO = 235235.000000 BARON lower = 235235.000000 , BARON upper = 235235.000000
+*TIMES   for quality # 11 : ALGO = 11.634021 s, BARON = 3.548020 s
+
+
+
+*SOLVING problem with quality # 12
+BARON solve results: lower = 234378.272945 ,  upper = 234378.272945 - time= 10.067024 s

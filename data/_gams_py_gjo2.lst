@@ -1,0 +1,36 @@
+GAMS 24.5.3  r54322 Released Oct  1, 2015 WEX-WEI x86 64bit/MS Windows                                                                                                                                                                 02/16/17 10:33:20 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+          sppC3 pooling problem data.
+          Author: Mohammed Alfaki, Wed Nov  9 15:36:09 2011
+GAMS 24.5.3  r54322 Released Oct  1, 2015 WEX-WEI x86 64bit/MS Windows                                                                                                                                                                 02/16/17 10:33:20 Page 2
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Include File Summary
+
+
+   SEQ   GLOBAL TYPE      PARENT   LOCAL  FILENAME
+
+     1        1 INPUT          0       0  I:\OneDrive for Business 1\PhD Radu\Ruth-MILP\Python\Pooling Python Code\data\_gams_py_gjo2.gms
+     2      387 INCLUDE        1     387  .I:\OneDrive for Business 1\PhD Radu\Ruth-MILP\Python\Pooling Python Code\data\pqmodel.gms
+
+
+COMPILATION TIME     =        0.000 SECONDS      3 MB  24.5.3 r54322 WEX-WEI
+GAMS 24.5.3  r54322 Released Oct  1, 2015 WEX-WEI x86 64bit/MS Windows                                                                                                                                                                 02/16/17 10:33:20 Page 4
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+E x e c u t i o n
+
+
+EXECUTION TIME       =        0.016 SECONDS      8 MB  24.5.3 r54322 WEX-WEI
+
+
+USER: Ruth Misener                                   G160314/0001AB-GEN
+      ANTIGONE Development License                               DC0000
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Input      I:\OneDrive for Business 1\PhD Radu\Ruth-MILP\Python\Pooling Python Code\data\_gams_py_gjo2.gms
+Output     I:\OneDrive for Business 1\PhD Radu\Ruth-MILP\Python\Pooling Python Code\data\_gams_py_gjo2.lst

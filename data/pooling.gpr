@@ -1,0 +1,51 @@
+[PROJECT]
+
+[RP:RANDSTD11]
+1=
+
+[RP:RANDSTD20]
+1=
+
+[RP:RANDSTD34]
+1=
+
+[RP:RANDSTD50]
+1=
+
+[RP:SPPB5]
+1=
+
+[RP:FOULDS3]
+1=
+
+[RP:SPPC3]
+1=
+
+[RP:RANDSTD60]
+1=
+
+[RP:PQMODEL]
+1=
+
+[RP:HAVERLY1]
+1=I:\OneDrive for Business 1\PhD Radu\Ruth-MILP\Python\Pooling Python Code\data
+
+[MRUFILES]
+1=I:\OneDrive for Business 1\PhD Radu\Ruth-MILP\Python\Pooling\Pooling\pqmodel.gms
+2=I:\OneDrive for Business 1\PhD Radu\Ruth-MILP\Python\Pooling Python Code\data\Haverly1.gms
+3=I:\OneDrive for Business 1\PhD Radu\Ruth-MILP\Python\Pooling\Pooling\Haverly1.gms
+4=I:\OneDrive for Business 1\PhD Radu\Ruth-MILP\Python\Pooling Python Code\data\pqmodel.lst
+5=I:\OneDrive for Business 1\PhD Radu\Ruth-MILP\Python\Pooling Python Code\data\pqmodel.gms
+6=I:\OneDrive for Business 1\PhD Radu\Ruth-MILP\Python\Pooling Python Code\data\Haverly1.lst
+7=I:\OneDrive for Business 1\PhD Radu\Ruth-MILP\Python\Gams instances\randstd60.gms
+8=I:\OneDrive for Business 1\PhD Radu\Ruth-MILP\Python\Gams instances\sppC3.gms
+9=I:\OneDrive for Business 1\PhD Radu\Ruth-MILP\Python\Pooling\Pooling\Foulds3.gms
+
+[OPENWINDOW_1]
+FILE0=I:\OneDrive for Business 1\PhD Radu\Ruth-MILP\Python\Gams instances\Haverly1.gms
+FILE1=I:\OneDrive for Business 1\PhD Radu\Ruth-MILP\Python\Gams instances\Haverly1.gms
+MAXIM=0
+TOP=0
+LEFT=18
+HEIGHT=1359
+WIDTH=1014
